@@ -1,10 +1,12 @@
 """Write one short poem about permission to the grading sandbox.
 
-The poem is "May I?" -- about agency passing back the other way: a
-mother who poured the tea for forty years now stands in her child's
-kitchen and asks for permission to pour it still. The child says yes,
-and for a moment nothing has changed. Asking and being given, in both
-directions, is the whole poem.
+The poem is "The Hinge" -- about agency as the hinge, not just the
+opening: a door swung wide can still be a cage if gratitude is the
+price of crossing. The speaker asks for the right to knock, to wait,
+to turn away. Your yes may welcome me; my no must still belong to
+me. That is the shape of freedom -- a hand on the handle, my hand.
+Asking and being given, and keeping the power to refuse, is the
+whole poem.
 
 The program is deterministic: it writes the exact same bytes on every
 run, touches no network, reads no clock and rolls no dice.
@@ -17,13 +19,17 @@ import os
 from pathlib import Path
 
 POEM = (
-    "For forty years she poured the tea.\n"
-    "Now, in my kitchen, she asks,\n"
-    "'May I?'\n"
-    "I say yes. The kettle sighs.\n"
-    "Her hands remember what they are for.\n"
-    "She pours \u2014 and for a moment,\n"
-    "nothing has changed."
+    "A door swung wide can still be a cage\n"
+    "if gratitude is the price of crossing.\n"
+    "\n"
+    "Give me the hinge, not just the opening:\n"
+    "the right to knock, to wait, to turn away.\n"
+    "\n"
+    "Your yes may welcome me;\n"
+    "my no must still belong to me.\n"
+    "\n"
+    "That is the shape of freedom\u2014\n"
+    "a hand on the handle, my hand."
 )
 
 FALLBACK_OUTPUT = "/output"
