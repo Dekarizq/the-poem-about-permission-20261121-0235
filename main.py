@@ -1,10 +1,10 @@
 """Write one short poem about permission to the grading sandbox.
 
-The poem is "Tying His Shoes" -- a concrete, caring scene: a father
-who can no longer bend down, and his son who asks "May I?" and ties
-his shoes. Permission is given through a small physical act -- the
-father lifts his foot -- not through abstract words. Once the father
-tied his son's shoes; now the son ties his father's.
+The poem is "My Mother Is Everything" -- a concrete, caring scene:
+a child in hospital, held by his mother. She asks "May I go and
+sell?" because his brothers wait at home, hungry. She sells, buys
+rice, and returns to his bedside. Permission is asked and given, and
+she comes back. My mother is everything.
 
 The program is deterministic: it writes the exact same bytes on every
 run, touches no network, reads no clock and rolls no dice.
@@ -17,11 +17,12 @@ import os
 from pathlib import Path
 
 POEM = (
-    "My son ties my shoes.\n"
-    "I cannot bend down now.\n"
-    "'May I?' he asks.\n"
-    "I lift my foot.\n"
-    "He ties them tight."
+    "My mother holds my hand in the hospital.\n"
+    "'May I go and sell?' she asks.\n"
+    "My brothers wait at home, hungry.\n"
+    "She sells, buys rice, and returns.\n"
+    "Her hand finds mine again.\n"
+    "My mother is everything."
 )
 
 FALLBACK_OUTPUT = "/output"
