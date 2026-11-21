@@ -1,12 +1,10 @@
 """Write one short poem about permission to the grading sandbox.
 
-The poem is "The Hinge" -- about agency as the hinge, not just the
-opening: a door swung wide can still be a cage if gratitude is the
-price of crossing. The speaker asks for the right to knock, to wait,
-to turn away. Your yes may welcome me; my no must still belong to
-me. That is the shape of freedom -- a hand on the handle, my hand.
-Asking and being given, and keeping the power to refuse, is the
-whole poem.
+The poem is "Tying His Shoes" -- a concrete, caring scene: a father
+who can no longer bend down, and his son who asks "May I?" and ties
+his shoes. Permission is given through a small physical act -- the
+father lifts his foot -- not through abstract words. Once the father
+tied his son's shoes; now the son ties his father's.
 
 The program is deterministic: it writes the exact same bytes on every
 run, touches no network, reads no clock and rolls no dice.
@@ -19,17 +17,11 @@ import os
 from pathlib import Path
 
 POEM = (
-    "A door swung wide can still be a cage\n"
-    "if gratitude is the price of crossing.\n"
-    "\n"
-    "Give me the hinge, not just the opening:\n"
-    "the right to knock, to wait, to turn away.\n"
-    "\n"
-    "Your yes may welcome me;\n"
-    "my no must still belong to me.\n"
-    "\n"
-    "That is the shape of freedom\u2014\n"
-    "a hand on the handle, my hand."
+    "My son ties my shoes.\n"
+    "I cannot bend down now.\n"
+    "'May I?' he asks.\n"
+    "I lift my foot.\n"
+    "He ties them tight."
 )
 
 FALLBACK_OUTPUT = "/output"
